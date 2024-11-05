@@ -49,7 +49,7 @@
         // Execute the prepared statement
         if ($stmt->execute()) {
             echo "<p>New record created successfully!</p>";
-        } else {
+        } else { 
             echo "<p>Error: " . $stmt->error . "</p>";
         }
         // Close the statement
